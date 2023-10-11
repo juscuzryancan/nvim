@@ -1,1 +1,1 @@
-require("keymaps")
+require("juscuzryancan.core.keymaps")
