@@ -12,8 +12,4 @@ end
 
 vim.opt.rtp:prepend(lazypath)
 
-require("lazy").setup({
-  "ellisonleao/gruvbox.nvim",
-  "ThePrimeagen/harpoon",
-  "williamboman/mason.nvim"
-})
+require("lazy").setup("juscuzryancan.plugins")
