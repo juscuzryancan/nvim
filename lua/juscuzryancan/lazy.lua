@@ -12,4 +12,17 @@ end
 
 vim.opt.rtp:prepend(lazypath)
 
-require("lazy").setup("juscuzryancan.plugins")
+require("lazy").setup({
+	{import = "juscuzryancan.plugins"}
+}, {
+	install = {
+		colorscheme = {"gruvbox"}
+	},
+	checker = {
+		enabled = true,
+		notify = false
+	},
+	change_detection = {
+		notify = false
+	}
+})
