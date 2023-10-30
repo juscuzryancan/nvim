@@ -1,2 +1,2 @@
 vim.keymap.set("n", "<leader>pv", vim.cmd.Ex)
-vim.keymap.set("n", "<leader>w", ':w!<cr>', {noremap = true, silent = false}) 
+vim.keymap.set("n", "<leader>w", ":w!<cr>", { noremap = true, silent = false })
