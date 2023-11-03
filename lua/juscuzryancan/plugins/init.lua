@@ -1,5 +1,4 @@
 return {
-  'ThePrimeagen/harpoon',
-  'williamboman/mason.nvim',
-  "ellisonleao/gruvbox.nvim"
+	"ellisonleao/gruvbox.nvim",
+	"windwp/nvim-ts-autotag",
 }
