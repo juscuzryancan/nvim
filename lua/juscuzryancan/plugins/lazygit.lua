@@ -7,6 +7,6 @@ return {
 	config = function()
 		local lazygit = require("lazygit")
 		local keymap = vim.keymap
-		keymap.set("n", "<leader>gg", "<cmd>LazyGit<CR>")
+		keymap.set("n", "<leader>gg", "<cmd>LazyGit<CR>", { desc = "LazyGit" })
 	end,
 }
