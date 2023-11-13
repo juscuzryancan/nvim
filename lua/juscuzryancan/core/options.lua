@@ -1,8 +1,5 @@
 -- :help options
 --
--- colorscheme --
-vim.o.background = "dark"
-vim.cmd([[colorscheme gruvbox]])
 vim.opt.backup = false -- creates a backup file
 vim.opt.clipboard = "unnamedplus" -- allows neovim to access the system clipboard
 vim.opt.cmdheight = 2 -- more space in the neovim command line for displaying messages
@@ -43,3 +40,5 @@ vim.opt.shortmess:append("c")
 vim.cmd("set whichwrap+=<,>,[,],h,l")
 vim.cmd([[set iskeyword+=-]])
 vim.cmd([[set formatoptions-=cro]]) -- TODO: this doesn't seem to work
+
+vim.g.mapleader = " "
