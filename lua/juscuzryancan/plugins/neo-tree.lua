@@ -33,10 +33,11 @@ return {
 		vim.fn.sign_define("DiagnosticSignHint", { text = "󰌵", texthl = "DiagnosticSignHint" })
 
 		local neoTree = require("neo-tree")
+		local keymap = vim.keymap
 		neoTree.setup({
 			hijack_netrw_behavior = "open_default",
 		})
 
-		vim.cmd([[nnoremap \ :Neotree reveal toggle<cr>]])
+		keymap.set("n", "\\", ":Neotree reveal toggle<cr>", { silent = true, desc = "Harpoon Add File" })
 	end,
 }
